@@ -27,11 +27,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🪐 Hello react frontend <a name="about-project"></a>
+# 🪐 Hello rails frontend <a name="about-project"></a>
  This is a startup react project using the redux toolkit.
 #### Back-End <a name="built-with"></a>
 
-[hello-react-backend](https://github.com/frempongdev/hello-rails-backend.git)
+[hello-rails-backend](https://github.com/frempongdev/hello-rails-backend.git)
 
 # 🛠 Built With <a name="built-with"></a>
 
