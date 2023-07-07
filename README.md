@@ -1,20 +1,23 @@
 <a name="readme-top"></a>
 
+<div align="center">
+  <h1><b>Hello react frontend</b></h1>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+- [🪐 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+- [💮 Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [↣ Prerequisites](#prerequisites)
+  - [↣ Setup](#setup)
+  - [↣ Install](#install)
+  - [↣ Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -24,83 +27,76 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 'hello-rails-backend <a name="about-project"></a>
+# 🪐 Hello react frontend <a name="about-project"></a>
+ This is a startup react project using the redux toolkit.
+#### Back-End <a name="built-with"></a>
 
-**'hello-rails-back-end** is a project that showcase how to build rails app with a react frontend using an api backend.
+[hello-react-backend](https://github.com/frempongdev/hello-rails-backend.git)
 
-## 🛠 Built With <a name="built-with"></a>
+# 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+## Tech Stack <a name="tech-stack"></a>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-<details>
-<summary>server</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">Rails</a></li>
-  </ul>
-</details>
+#### 👉 [React JS](https://reactjs.org)
+#### 👉 [Redux Toolkit](https://redux-toolkit.js.org/)
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+# 💮 Key Features <a name="key-features"></a>
 
-- generate random greeting
+- **Fetch data from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
 
 
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+# 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+## ⨁ Prerequisites <a name="prerequisites"></a>
 
-In order to run this project you need: `Ruby`, `Rails` and a Database such as PostgreSQL
+In order to run this project you need:
 
-### Setup
+  A _browser_ to run the project <br>
+  A _terminal_ to install the dependencies
 
-Clone this repository to your desired folder.
+## ⨁ Setup <a name="setup"></a>
 
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/frempongdev/hello-rails-frontend.git
 ```
-cd my-folder
-git clone https://github.com/frempongdev/hello-rails-backend.git
-```
 
-#### Fron-End <a name="built-with"></a>
-
-[hello-react-frontend](https://github.com/frempongdev/hello-rails-frontend.git)
-
-### Install
+## ⨁ Install <a name="install"></a>
 
 Install this project with:
 
-```
-  bundle install
+```sh
+  cd hello-react-front-end
+  npm install
 ```
 
-### Usage
+## ⨁ Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 
-```
-  rails db:create
-  rails db:migrate
-  rails s
+```sh
+  npm run dev
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+# 🧑🏽‍💻 Authors <a name="authors"></a>
 
 ### 👥 Frempong
 
@@ -112,15 +108,15 @@ To run the project, execute the following command:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+# 🔭 Future Features <a name="future-features"></a>
 
-- Implement UI for application.
+- [ ] **Make this project into a template**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+# 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -130,9 +126,9 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+# ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a ⭐️!
+#### ⭐️⭐️⭐️⭐️ Kindly Star the repository if you like it 💸
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,13 +136,15 @@ If you like this project please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thank you to microverse for setting us on this journey.
+We would like to thank: 
+- Microverse for all the provided guidance
+- Code Reviewers for all their suggestions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+# 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
