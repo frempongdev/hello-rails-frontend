@@ -1,12 +1,10 @@
-import './App.css'
+import './App.css';
+import Greeting from './components/Greeting';
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>This is our main component</h1>
-    </div>
-  )
+    <Greeting />
+  );
 }
 
-export default App
+export default App;
